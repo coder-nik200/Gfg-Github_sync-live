@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icons/icon128.png" alt="GFG GitHub Sync Logo" width="110"/>
+<img width="128" height="128" alt="Image" src="https://github.com/user-attachments/assets/a684d133-bcd5-40e6-b448-31231182f0cc" />
 
 # GFG → GitHub Sync
 
