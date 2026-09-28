@@ -1,73 +1,64 @@
 import {
   ArrowRight,
-  Check,
-  Github,
-  Download,
-  Chrome,
-  Terminal,
-  ShieldCheck,
-  Code2,
-  FileText,
-} from "lucide-react";
-import Link from "next/link";
-import { FeatureCard, REPO_URL, RELEASES_URL } from "@/components/site";
-import {
   BarChart3,
+  BookOpen,
+  Check,
   CheckCircle2,
+  Chrome,
   CircleAlert,
+  Code2,
+  Download,
+  FileText,
   FolderGit2,
+  Github,
+  LockKeyhole,
   RefreshCw,
   Settings2,
-  BookOpen,
-  LockKeyhole,
+  ShieldCheck,
 } from "lucide-react";
+
+import Link from "next/link";
+import { FeatureCard, REPO_URL, RELEASES_URL } from "@/components/site";
 
 const features = [
   {
     title: "Accepted Only",
-    description:
-      "Only sync solutions after GeeksforGeeks confirms the problem is solved.",
+    text: "Only sync solutions after GeeksforGeeks confirms the problem is solved.",
     icon: CheckCircle2,
   },
   {
     title: "C++ Extraction",
-    description:
-      "Automatically extracts your submitted C++17 solution from the GFG editor.",
+    text: "Automatically extracts your submitted C++17 solution from the GFG editor.",
     icon: Code2,
   },
   {
     title: "GitHub Organization",
-    description:
-      "Keeps your accepted solutions organized inside your GitHub repository.",
+    text: "Keeps your accepted solutions organized inside your GitHub repository.",
     icon: FolderGit2,
   },
   {
     title: "README Generation",
-    description:
-      "Creates a README for each synced problem with useful submission details.",
+    text: "Creates a README for each synced problem with useful submission details.",
     icon: FileText,
   },
   {
     title: "Create or Update",
-    description:
-      "Creates new solution files and updates existing ones when needed.",
+    text: "Creates new solution files and updates existing ones when needed.",
     icon: RefreshCw,
   },
   {
     title: "Local Statistics",
-    description:
-      "Track total synced problems and Easy, Medium, and Hard counts.",
+    text: "Track total synced problems and Easy, Medium, and Hard counts.",
     icon: BarChart3,
   },
   {
     title: "Local Configuration",
-    description: "Your GitHub configuration is stored locally in Chrome.",
+    text: "Your GitHub configuration is stored locally in Chrome.",
     icon: Settings2,
   },
   {
     title: "Sync Status",
-    description:
-      "See successful uploads and useful error information directly in the extension.",
+    text: "See successful uploads and useful error information directly in the extension.",
     icon: CircleAlert,
   },
 ];
