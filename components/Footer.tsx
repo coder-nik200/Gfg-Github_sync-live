@@ -88,7 +88,7 @@ export function Footer() {
             {/* Label */}
             <div>
               <p className="text-sm font-medium text-white/60">
-                Connect with Nitish
+                Connect with me
               </p>
               <p className="mt-1 text-xs text-white/30">
                 Find me across the web
